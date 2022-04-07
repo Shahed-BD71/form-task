@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.container .a {
+  background-color: #96caef;
+  padding: 3rem;
+}
+.container .b {
+  background-color: #8de4af;
+  padding: 3rem;
+}
+
+.container .c {
+  background-color: #e7717d;
+  padding: 3rem;
+}
+
+.container .a,
+.b,
+.c {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+}
