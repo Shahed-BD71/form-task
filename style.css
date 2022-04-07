@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* task one */
 .container {
   display: flex;
   margin: 0;
@@ -16,6 +17,7 @@
 .container .a {
   background-color: #96caef;
   padding: 3rem;
+  margin: auto; //task two. Box A in left, B & C in right
 }
 .container .b {
   background-color: #8de4af;
